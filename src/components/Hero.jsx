@@ -25,6 +25,24 @@ const Hero = () => {
             </div>   
 
             <ComputersCanvas/>
+
+                {/* animated scroll button */}
+                <div className="absolute z-50 xs:bottom-72 sm:bottom-80 xl:bottom-6  w-full flex justify-center items-center">
+                    <a href="#about">
+                        <div className="w-[34px] h-[64px] rounded-2xl border-4 border-secondary flex justify-center items-start p-2">
+                            <motion.div
+                                animate = {{ y : [ 0, 24 , 0 ] }}
+                                transition = {{
+                                    duration : 1.5 , 
+                                    repeat : Infinity , 
+                                    repeatType : 'loop'
+                                }}
+                                
+                                className="w-3 h-3 rounded-full bg-violet-800 mb-1"
+                            />
+                        </div>
+                    </a>
+                </div>
             
         </section>
     )

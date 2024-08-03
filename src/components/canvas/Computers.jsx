@@ -13,7 +13,7 @@ const Computers = () => {
 
     // Camera position : 
     let targetPosition ; 
-    if ( isDesktop ) targetPosition = [ 0 , -3.7 , -2 ] ; 
+    if ( isDesktop ) targetPosition = [ 0 , -2.9 , -1.8 ] ; 
     else if ( isTablet ) targetPosition = [ 0 , -0.5 , -0.7 ] ; 
     else targetPosition = [ 0.7 , -0.3 , -0.4 ] ; 
 
@@ -50,7 +50,7 @@ const Computers = () => {
                 object = { computer.scene }
                 scale = { 
                     isDesktop 
-                    ? 0.75
+                    ? 0.6   
                     :   isTablet 
                         ? 0.45
                         : 0.3
