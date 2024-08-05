@@ -56,7 +56,7 @@ const Computers = () => {
                         : 0.3
                  }
                 position = { targetPosition }
-                rotation = {[ -0.01 , -0.2 , -0.1 ]}
+                rotation = {[ -0.01 , 0.35 , -0.04 ]}
             />
         </mesh>
     )

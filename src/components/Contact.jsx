@@ -20,10 +20,42 @@ const Contact = () => {
     const [ loading , setLoading ] = useState ( false ) ; 
 
     const handleChange = ( e ) => {
-
+        const { name , value } = e.target ; 
+        setForm ({ ...form , [ name ] : value }) ; 
     }
     const handleSubmit = ( e ) => {
+        e.preventDefault() ; 
+        setLoading ( true ) ; 
 
+        emailjs.send ( 
+            'service_wx8vgoc' , 
+            'template_fz0jvkl' , 
+            {
+                from_name : form.name , 
+                to_name : 'Serigne Saliou WADE' , 
+                from_email : form.email , 
+                to_email : 'wadess@ept.sn' , 
+                message : form.message 
+            },
+            'DHhg7wlojdWW8oIX0'
+        )
+            .then (
+                ( result ) => {
+                    setLoading  ( false ) ; 
+                    alert ('Thank you . I will get back to you as soon as possible.') ; 
+
+                    setForm ({
+                        name : '' , 
+                        email : '' ,
+                        message : '' 
+                    })
+                } , 
+                ( error ) => {
+                    setLoading ( false ) ;
+                    console.log ( error ) ; 
+                    alert ('Sorry! We could not forward your message . Something went wrong!') ; 
+                }
+            )
     }
 
 
