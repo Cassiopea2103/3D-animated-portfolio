@@ -46,7 +46,7 @@ const Computers = () => {
                 
             />
 
-            <primitive 
+            <primitive
                 object = { computer.scene }
                 scale = { 
                     isDesktop 

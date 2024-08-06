@@ -9,7 +9,7 @@ const Ball = ( { imgUrl } ) => {
 
     return (
         <Float 
-            speed={1.75}
+            speed={3.75}
             rotationIntensity={1}
             floatIntensity={2}
         >
@@ -22,11 +22,11 @@ const Ball = ( { imgUrl } ) => {
                 scale={2.75}
             >
 
-                <icosahedronGeometry args={[1,1]}/> 
+                <icosahedronGeometry args={[1,2]}/> 
                 <meshStandardMaterial
                     color={'#B5D2FB'}
                     polygonOffset
-                    polygonOffsetFactor={-5}
+                    polygonOffsetFactor={-4}
                     flatShading
                 />
                 

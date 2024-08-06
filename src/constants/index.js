@@ -2,28 +2,71 @@ import {
   mobile,
   backend,
   creator,
-  web,
-  javascript,
-  typescript,
-  html,
-  css,
-  reactjs,
-  redux,
-  tailwind,
-  nodejs,
-  mongodb,
-  git,
-  figma,
-  docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
-  threejs,
+  web, 
+
+
+  html , 
+  css , 
+  javascript, 
+  c , 
+  csharp, 
+  python, 
+  java , 
+  bootstrap, 
+  sass , 
+  tailwind , 
+  typescript, 
+  redux , 
+  spfx , 
+  reactjs , 
+  next , 
+  angular , 
+  threejs, 
+  django, 
+  flask , 
+  fastapi, 
+  springboot, 
+  nodejs, 
+  express, 
+  nest, 
+  oracle, 
+  mongodb, 
+  mysql, 
+  postgres, 
+  hibernate, 
+  prisma , 
+  reactNative, 
+  androidStudio, 
+  aws , 
+  ibm , 
+  powerPlateform, 
+  git , 
+  docker, 
+  kubernetes, 
+  terraform, 
+  ansible, 
+  jenkins, 
+  hadoop, 
+  spark, 
+  pyspark,
+
+
+  
+  sonatel,
+  baamtu,
+  freelance,
+
+
+  studybud,
+  simula,
+  threeai,
+  portfolio,
+  ganeyi,
+  fiaya
 } from "../assets";
+
+
+
 
 export const navLinks = [
   {
@@ -40,134 +83,256 @@ export const navLinks = [
   },
 ];
 
+
+
+
 const services = [
   {
     title: "Web Developer",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Mobile Apps Developer",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Databases",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Cloud Computing",
     icon: creator,
   },
 ];
 
+
+
+
+
 const technologies = [
+  // {
+  //   name: "HTML 5",
+  //   icon: html,
+  // },
+  // {
+  //   name: "CSS 3",
+  //   icon: css,
+  // },
+  // {
+  //   name: "JavaScript",
+  //   icon: javascript,
+  // },
+  // {
+  //   name: "C",
+  //   icon: c,
+  // },
+  // {
+  //   name: "C sharp",
+  //   icon: csharp,
+  // },
+  // {
+  //   name: "Python",
+  //   icon: python,
+  // },
+  // {
+  //   name: "Java",
+  //   icon: java,
+  // },
+  // {
+  //   name: "bootstrap",
+  //   icon: bootstrap,
+  // },
+  // {
+  //   name: "Tailwindcss",
+  //   icon: tailwind,
+  // },
+  // {
+  //   name: "Sass",
+  //   icon: sass,
+  // },
+  // {
+  //   name: "Typescript",
+  //   icon: typescript,
+  // },
+  // {
+  //   name: "Redux",
+  //   icon: redux,
+  // },
+  // {
+  //   name: "SPFx",
+  //   icon: spfx,
+  // },
   {
-    name: "HTML 5",
-    icon: html,
-  },
-  {
-    name: "CSS 3",
-    icon: css,
-  },
-  {
-    name: "JavaScript",
-    icon: javascript,
-  },
-  {
-    name: "TypeScript",
-    icon: typescript,
-  },
-  {
-    name: "React JS",
+    name: "React",
     icon: reactjs,
   },
+  // {
+  //   name: "Next",
+  //   icon: next,
+  // },
+  // {
+  //   name: "Angular",
+  //   icon: angular,
+  // },
+  // {
+  //   name: "Three",
+  //   icon: threejs,
+  // },
+  // {
+  //   name: "Django",
+  //   icon: django,
+  // },
+  // {
+  //   name: "Flask",
+  //   icon: flask,
+  // },
+  // {
+  //   name: "FastAPI",
+  //   icon: fastapi,
+  // },
   {
-    name: "Redux Toolkit",
-    icon: redux,
+    name: "Spring Boot",
+    icon: springboot,
   },
   {
-    name: "Tailwind CSS",
-    icon: tailwind,
-  },
-  {
-    name: "Node JS",
+    name: "Node",
     icon: nodejs,
   },
+  // {
+  //   name: "Express",
+  //   icon: express,
+  // },
+  {
+    name: "Nest",
+    icon: nest,
+  },
+  // {
+  //   name: "Oracle",
+  //   icon: oracle,
+  // },
+  // {
+  //   name: "Postgres",
+  //   icon: postgres,
+  // },
+  // {
+  //   name: "MySQL",
+  //   icon: mysql,
+  // },
   {
     name: "MongoDB",
     icon: mongodb,
   },
+  // {
+  //   name: "Prisma",
+  //   icon: prisma,
+  // },
+  // {
+  //   name: "Hibernate",
+  //   icon: hibernate,
+  // },
+  // {
+  //   name: "React Native",
+  //   icon: reactNative,
+  // },
+  // {
+  //   name: "Android Studio",
+  //   icon: androidStudio,
+  // },
   {
-    name: "Three JS",
-    icon: threejs,
+    name: "AWS",
+    icon: aws,
   },
+  // {
+  //   name: "IBM Cloud",
+  //   icon: ibm,
+  // },
+  // {
+  //   name: "Power Plateform",
+  //   icon: powerPlateform,
+  // },
+  // {
+  //   name: "Git",
+  //   icon: git,
+  // },
   {
-    name: "git",
-    icon: git,
-  },
-  {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "docker",
+    name: "Docker",
     icon: docker,
+  },
+  {
+    name: "Kubernetes",
+    icon: kubernetes,
+  },
+  {
+    name: "Terraform",
+    icon: terraform,
+  },
+  {
+    name: "Jenkins",
+    icon: jenkins,
+  },
+  {
+    name: "Ansible",
+    icon: ansible,
+  },
+  // {
+  //   name: "Hadoop",
+  //   icon: hadoop,
+  // },
+  // {
+  //   name: "Spark",
+  //   icon: spark,
+  // },
+  {
+    name: "PySpark",
+    icon: pyspark,
   },
 ];
 
+
+
+
+
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    title: "Junior Data Scientist",
+    company_name: "Baamtu SARL",
+    icon: baamtu,
+    iconBg: "#FFFFEE",
+    date: "2022 - 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Design of OCR models as part of the Ganeyi project to facilitate authentication with documents (passports, national ID cards, etc.)",
+      "Implementation of APIs for the use of OCR models",
+      "Implementation of mobile solutions in the form of SDKs, incorporating these OCR models and usable by other developers.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
+    title: "Junior Cloud intern",
+    company_name: "SONATEL",
+    icon: sonatel,
+    iconBg: "#FF7900",
     date: "Jan 2021 - Feb 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Implementation of solutions allowing geographically dispersed teams to collaborate on documents online.",
+      "Use of Power Platform tools (Power Apps, Power Automate) and SharePoint Framework (SPFx) to implement this solution.",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
+    title: "Freelancing",
+    company_name: "ATD CKS",
+    icon: freelance,
+    iconBg: "#FBE1AB",
     date: "Jan 2022 - Jan 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Design and deployment of a website (https://fiayaagricole.net/) for the company Fiaya.",
+      "Implementation of SEO strategies to increase traffic to Fiaya's website.",
     ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
+  }
 ];
+
+
+
+
+
 
 const testimonials = [
   {
@@ -196,69 +361,127 @@ const testimonials = [
   },
 ];
 
+
+
+
+
+
+ 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Study Buddy",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Web-based learning and sharing plateform . It allow users to connect , create discussions , join topics and share there mutual knowledge or find help when stuck with a specific question.",
+    tags: [
+      {
+        name: "Django",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Rest Framework",
+        color: "green-text-gradient",
+      },
+      
+    ],
+    image: studybud,
+    source_code_link: "https://github.com/Cassiopea2103/StudyBuddy",
+  },
+  {
+    name: "SimulaForum",
+    description:
+      "A forum related to the SimulaMath software .Users can discuss various range of scientific domains and for about all academic levels including college , high school , university ... ",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
+      },
+      {
+        name: "express",
+        color: "green-text-gradient",
+      },
+      {
+        name: "NodeJS",
+        color: "pink-text-gradient",
       },
       {
         name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: simula,
+    source_code_link: "https://github.com/Cassiopea2103/simulaForum",
   },
   {
-    name: "Job IT",
+    name: "Fiaya agricole",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "An agriculture service providing and products selling plateform made for the use of Fiaya company . It allows end users to navigate through the website , search for what agriculture needs they have and contact the company for reaching and end deal.",
     tags: [
       {
-        name: "react",
+        name: "React",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "express",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "mongodb",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: fiaya,
+    source_code_link: "https://github.com/Cassiopea2103/fiaya-agricole",
   },
   {
-    name: "Trip Guide",
+    name: "3D animated portfolio",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "My personal portfolio showcasing my projects , expreriences , skills.",
     tags: [
       {
-        name: "nextjs",
+        name: "React",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "Three",
         color: "green-text-gradient",
+      }
+    ],
+    image: portfolio,
+    source_code_link: "https://github.com/Cassiopea2103/3D-animated-portfolio",
+  },
+  {
+    name: "3D AI-powered customization shirt",
+    description:
+      "A simple learn by doing project from JSMastery made with Three and React for creating customized creative shirt 3D models with AI features ",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
       },
       {
-        name: "css",
-        color: "pink-text-gradient",
-      },
+        name: "Three",
+        color: "green-text-gradient",
+      }
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: threeai,
+    source_code_link: "https://github.com/Cassiopea2103/3D_AI_powered_animated_website",
+  },
+  {
+    name: "Ganeyi",
+    description:
+      "A mobile plateform made for Optical Character Recognition AI models for processing authentication documents like Passports , bills ,NIC ...",
+    tags: [
+      {
+        name: "React Native",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Mobile",
+        color: "green-text-gradient",
+      }
+    ],
+    image: ganeyi,
+    source_code_link: "https://github.com/Cassiopea2103/ganeyi_v2",
   },
 ];
 
