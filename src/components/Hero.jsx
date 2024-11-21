@@ -19,7 +19,8 @@ const Hero = () => {
                         I am <span className="text-[#915eff]">&nbsp;Cassiopea</span>
                     </h1>
                     <p className={`${ styles.heroSubText } mt-2 text-white-100 `}>
-                        I'm a computer science engineering student💻 @EPT and a cloud computing☁️ enthusiast . 
+                        I'm a computer science engineering student💻 @EPT, a Junior DevOps intern @InTouch SA &
+                        a Cloud computing☁️ and DevOps⚙ enthusiast .
                     </p>
                 </div>
             </div>   
