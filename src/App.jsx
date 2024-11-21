@@ -1,4 +1,6 @@
 import { BrowserRouter } from "react-router-dom";
+import TagManager from "react-gtm-module" ;
+import {useEffect} from "react";
 
 import {
     Navbar , 
@@ -13,6 +15,12 @@ import {
 } from './components' ; 
 
 const App = () => {
+
+    useEffect(() => {
+        const gtmId = 'G-DZ3X17V73R';
+        TagManager.initialize(gtmId);
+    }, [])
+
     return (
         <BrowserRouter>
             <div className="relative z-0 bg-primary">
