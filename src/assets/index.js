@@ -63,6 +63,7 @@ import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 import baamtu from './company/baamtu.png';
 import sonatel from './company/sonatel.png';
+import intouch from './company/intouch.png' ;
 import freelance from './company/freelance.png';
 
 import simula from './simulamath.png' ; 
@@ -136,6 +137,7 @@ export {
   tesla,
   baamtu,
   sonatel,
+  intouch , 
   freelance,
 
 

@@ -54,6 +54,7 @@ import {
   
   sonatel,
   baamtu,
+  intouch,
   freelance,
 
 
@@ -317,6 +318,19 @@ const experiences = [
     ],
   },
   {
+    title: "Junior DevOps",
+    company_name: "InTouch SA",
+    icon: intouch,
+    iconBg: "#2F335A",
+    date: "September 2024 - Present",
+    points: [
+        "Design and implementing the the architecture for a notifications microservice" ,
+        "Managing multiple categories of notifications ( KYC , Transactional , Marketing ... ) " ,
+        "Establishing a persistence mechanism for failures handling and retrials" ,
+        "Templating features with placeholders for customization..."
+    ],
+  },
+  {
     title: "Freelancing",
     company_name: "ATD CKS",
     icon: freelance,
@@ -337,27 +351,27 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+      "Will get to the people I've worked with in the past and come back soon...",
+    name: "X",
+    designation: "X",
+    company: "X",
+    image: "",
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+      "Will get to the people I've worked with in the past and come back soon...",
+    name: "X",
+    designation: "X",
+    company: "X",
+    image: "",
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+      "Will get to the people I've worked with in the past and come back soon...",
+    name: "X",
+    designation: "X",
+    company: "X",
+    image: "",
   },
 ];
 
