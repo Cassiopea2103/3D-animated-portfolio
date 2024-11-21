@@ -392,7 +392,7 @@ const projects = [
         color: "blue-text-gradient",
       },
       {
-        name: "Rest Framework",
+        name: "Django Rest-Framework",
         color: "green-text-gradient",
       },
       
@@ -411,15 +411,15 @@ const projects = [
       },
       {
         name: "express",
-        color: "green-text-gradient",
+        color: "yellow-text-gradient",
       },
       {
         name: "NodeJS",
-        color: "pink-text-gradient",
+        color: "green-text-gradient",
       },
       {
-        name: "mongodb",
-        color: "pink-text-gradient",
+        name: "Mongodb",
+        color: "green-text-gradient",
       },
     ],
     image: simula,
@@ -428,7 +428,7 @@ const projects = [
   {
     name: "Fiaya agricole",
     description:
-      "An agriculture service providing and products selling plateform made for the use of Fiaya company . It allows end users to navigate through the website , search for what agriculture needs they have and contact the company for reaching and end deal.",
+      "An agriculture service providing and products selling platform made for the use of Fiaya company . It allows end users to navigate through the website , search for what agriculture needs they have and contact the company for reaching and end deal.",
     tags: [
       {
         name: "React",
@@ -436,11 +436,11 @@ const projects = [
       },
       {
         name: "express",
-        color: "green-text-gradient",
+        color: "yellow-text-gradient",
       },
       {
         name: "mongodb",
-        color: "pink-text-gradient",
+        color: "green-text-gradient",
       },
     ],
     image: fiaya,
@@ -449,7 +449,7 @@ const projects = [
   {
     name: "3D animated portfolio",
     description:
-      "My personal portfolio showcasing my projects , expreriences , skills.",
+      "The very website you are visiting right now ! A project showcasing my works , experiences , skills.",
     tags: [
       {
         name: "React",
@@ -457,7 +457,7 @@ const projects = [
       },
       {
         name: "Three",
-        color: "green-text-gradient",
+        color: "pink-text-gradient",
       }
     ],
     image: portfolio,
@@ -466,7 +466,7 @@ const projects = [
   {
     name: "3D AI-powered customization shirt",
     description:
-      "A simple learn by doing project from JSMastery made with Three and React for creating customized creative shirt 3D models with AI features ",
+      "Another simple, yet effective learn by doing project from JSMastery made with Three and React for creating customized creative shirt 3D models with AI features ",
     tags: [
       {
         name: "React",
@@ -474,7 +474,11 @@ const projects = [
       },
       {
         name: "Three",
-        color: "green-text-gradient",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "OpenAI",
+        color: "blue-text-gradient",
       }
     ],
     image: threeai,
@@ -490,7 +494,7 @@ const projects = [
         color: "blue-text-gradient",
       },
       {
-        name: "Mobile",
+        name: "Android Java",
         color: "green-text-gradient",
       }
     ],

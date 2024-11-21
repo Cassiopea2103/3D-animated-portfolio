@@ -53,12 +53,12 @@ const About = () => {
                 variants={ fadeIn ("" , "" , 0.1 , 1) }
                 className={`text-secondary text-[17px] max-w-3xl leading-[30px] text-justify`}
             >
-                Currently pursuing a computer science engineering formation @ EPT, 
-                I am yet equiped with professional skills ranging from wide experience in various
+                Currently pursuing a computer science engineering master @ EPT,
+                I am yet equipped with professional skills ranging from wide experience in various
                 programming languages as well as frameworks to other main fields such as Cloud Computing,
-                DevOps , Networking & Big Data . 
+                DevOps , Computer Networking , Databases ...
                 What I like to do is collaborating with peers for implementing efficient and creative 
-                solutions overcoming real-world problems . 
+                solutions overcoming real-world problems .
             </motion.p>
 
             <div className="mt-20 flex flex-wrap gap-10">

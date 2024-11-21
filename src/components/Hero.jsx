@@ -23,7 +23,7 @@ const Hero = () => {
                         a Cloud computing☁️ and DevOps⚙ enthusiast .
                     </p>
                 </div>
-            </div>   
+            </div>
 
             <ComputersCanvas/>
 
